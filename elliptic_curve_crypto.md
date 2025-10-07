@@ -19,9 +19,11 @@ y² = x³ + ax + b
 Для наглядности, давайте рассмотрим примеры эллиптических кривых.
 
 ### Примеры эллиптических кривых
-<img width="4770" height="3542" alt="curve_types_comparison" src="https://github.com/user-attachments/assets/84b9553e-ae5f-492a-94d1-35f8e70d5b17" />
+<img width="4770" height="3542" alt="curve_types_comparison" src="https://github.com/user-attachments/assets/341e3e5d-bdf5-4b40-936c-d52383e49937" />
 
-<img width="4770" height="1779" alt="singular_curves" src="https://github.com/user-attachments/assets/34495541-ecf1-4ca9-9c6e-cbcf0e623628" />
+
+<img width="4770" height="1779" alt="singular_curves" src="https://github.com/user-attachments/assets/b49d9a26-6d36-4360-a9c9-0098c1ae5527" />
+
 
 #### Кривая secp256k1 (Bitcoin и Ethereum)
 
@@ -29,7 +31,8 @@ y² = x³ + ax + b
 
 $$y^{2} = x^{3} + 7 \quad\quad \text{(secp256k1)}$$
 
-<img width="800" height="800" alt="secp256k1_curve" src="https://github.com/user-attachments/assets/f29f6d8c-798b-456c-a84f-85075103d9a4" />
+<img width="3570" height="2381" alt="secp256k1_curve" src="https://github.com/user-attachments/assets/97b695b9-7c1e-4696-a504-22a0c816e6cc" />
+
 
 ### Построение группы на эллиптических кривых
 
@@ -49,7 +52,8 @@ $$y^{2} = x^{3} + 7 \quad\quad \text{(secp256k1)}$$
 
 $$P + Q + R = O \Rightarrow P + Q = -R$$  
 **Пример**  
-<img width="800" height="800" alt="point_doubling" src="https://github.com/user-attachments/assets/3a84e4ea-64d2-4bf0-9b77-b1bce6fa6d7a" />
+<img width="3570" height="2979" alt="point_doubling" src="https://github.com/user-attachments/assets/3032a493-1893-44b6-9a58-baa8b0f815ca" />
+
 
 
 Предположим, что точка Q стремиться к точке P. Тогда в пределе будем получать, что
@@ -81,7 +85,8 @@ y² ≡ x³ + ax + b (mod p)
 где 4a³ + 27b² ≢0 (mod p)
 ```
 А график кривых будет иметь следующий вид:
-<img width="5370" height="1779" alt="finite_field_curves" src="https://github.com/user-attachments/assets/86192d65-f800-4b21-95c7-d6f5e2e9de01" />
+<img width="5370" height="1779" alt="finite_field_curves" src="https://github.com/user-attachments/assets/9e84ebc3-e0a3-4586-9820-2b9aee90dabd" />
+
 
 
 Не смотря на то, что мы перешли из непрерывного пространства в конечное поле, операции над кривыми остаются такими же.
@@ -230,8 +235,7 @@ S = dᵦ × Hₐ = dᵦ × (dₐ × G) = (dᵦ × dₐ) × G
 4. **Масштабируемость** для устройств с ограниченными ресурсами
 
 ###  Сравнение размеров ключей:
-<img width="2400" height="1600" alt="RSAvsECC" src="https://github.com/user-attachments/assets/5dd0c797-5edb-4c9d-93d7-fe535a1f99fe" />
-
+<img width="2400" height="1600" alt="RSAvsECC" src="https://github.com/user-attachments/assets/118deeb5-2237-44c4-9ac6-44010855f2c9" />
 
 ### Применения ECC:
 
