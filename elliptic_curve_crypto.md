@@ -31,7 +31,7 @@ y² = x³ + ax + b
 
 $$y^{2} = x^{3} + 7 \quad\quad \text{(secp256k1)}$$
 
-<img width="3570" height="2381" alt="secp256k1_curve" src="https://github.com/user-attachments/assets/97b695b9-7c1e-4696-a504-22a0c816e6cc" />
+<img width="800" height="800" alt="secp256k1_curve" src="https://github.com/user-attachments/assets/97b695b9-7c1e-4696-a504-22a0c816e6cc" />
 
 
 ### Построение группы на эллиптических кривых
@@ -52,14 +52,15 @@ $$y^{2} = x^{3} + 7 \quad\quad \text{(secp256k1)}$$
 
 $$P + Q + R = O \Rightarrow P + Q = -R$$  
 **Пример**  
-<img width="3570" height="2979" alt="point_doubling" src="https://github.com/user-attachments/assets/3032a493-1893-44b6-9a58-baa8b0f815ca" />
+<img width="800" height="800" alt="point_doubling" src="https://github.com/user-attachments/assets/3032a493-1893-44b6-9a58-baa8b0f815ca" />
 
 
 
 Предположим, что точка Q стремиться к точке P. Тогда в пределе будем получать, что
  ```P + P =-R ```и график будет принимать такой вид:
 
-![animation-point-doubling](https://github.com/user-attachments/assets/5b1dc344-e813-4fd2-9ddf-1d1a4bca4654)
+![animation-point-doubling ](https://github.com/user-attachments/assets/9951e63f-3f20-414d-901f-d0bd24d4aa20)
+
 > Гифка отсюда -> [elliptic-curve-cryptography-a-gentle-introduction ](https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction)  
 > Здесь можно найти более строгое обоснование операций.
 
